@@ -13,16 +13,23 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		95737610370C4B80F88B9308 /* Pods_LLRiseTabBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7032E9C4A660CE148F2567BB /* Pods_LLRiseTabBar_Example.framework */; };
 		DEFCDEA741AF6B639EC8B260 /* Pods_LLRiseTabBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950E2145AF27FD3B19433642 /* Pods_LLRiseTabBar_Tests.framework */; };
+		FA4539E31DB27BB6007789D7 /* LLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4539D21DB27BB6007789D7 /* LLBaseViewController.m */; };
+		FA4539E41DB27BB6007789D7 /* LLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4539D51DB27BB6007789D7 /* LLHomeViewController.m */; };
+		FA4539E51DB27BB6007789D7 /* LLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4539D61DB27BB6007789D7 /* LLHomeViewController.xib */; };
+		FA4539E61DB27BB6007789D7 /* LLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4539D91DB27BB6007789D7 /* LLMessageViewController.m */; };
+		FA4539E71DB27BB6007789D7 /* LLMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4539DA1DB27BB6007789D7 /* LLMessageViewController.xib */; };
+		FA4539E81DB27BB6007789D7 /* LLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4539DD1DB27BB6007789D7 /* LLMineViewController.m */; };
+		FA4539E91DB27BB6007789D7 /* LLMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4539DE1DB27BB6007789D7 /* LLMineViewController.xib */; };
+		FA4539EA1DB27BB6007789D7 /* LLSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4539E11DB27BB6007789D7 /* LLSameCityViewController.m */; };
+		FA4539EB1DB27BB6007789D7 /* LLSameCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4539E21DB27BB6007789D7 /* LLSameCityViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +54,6 @@
 		6003F59B195388D20070C39A /* LLRiseTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLRiseTabBar-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* LLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* LLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* LLRiseTabBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLRiseTabBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,12 +64,25 @@
 		62CBFEA4B621037C9B20B281 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7032E9C4A660CE148F2567BB /* Pods_LLRiseTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLRiseTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4CCFDB7F6E6A7246CC147B /* Pods-LLRiseTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLRiseTabBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLRiseTabBar_Tests/Pods-LLRiseTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		950E2145AF27FD3B19433642 /* Pods_LLRiseTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLRiseTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4436792DBF773482CC72790 /* LLRiseTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLRiseTabBar.podspec; path = ../LLRiseTabBar.podspec; sourceTree = "<group>"; };
 		DE85F3B541D1635A39A66856 /* Pods-LLRiseTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLRiseTabBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLRiseTabBar_Tests/Pods-LLRiseTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E20340467F6BBEAD64D0532E /* Pods-LLRiseTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLRiseTabBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLRiseTabBar_Example/Pods-LLRiseTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EEA5AC7538B61A28E89A046D /* Pods-LLRiseTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLRiseTabBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLRiseTabBar_Example/Pods-LLRiseTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FA4539D11DB27BB6007789D7 /* LLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBaseViewController.h; sourceTree = "<group>"; };
+		FA4539D21DB27BB6007789D7 /* LLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBaseViewController.m; sourceTree = "<group>"; };
+		FA4539D41DB27BB6007789D7 /* LLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLHomeViewController.h; sourceTree = "<group>"; };
+		FA4539D51DB27BB6007789D7 /* LLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLHomeViewController.m; sourceTree = "<group>"; };
+		FA4539D61DB27BB6007789D7 /* LLHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLHomeViewController.xib; sourceTree = "<group>"; };
+		FA4539D81DB27BB6007789D7 /* LLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessageViewController.h; sourceTree = "<group>"; };
+		FA4539D91DB27BB6007789D7 /* LLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessageViewController.m; sourceTree = "<group>"; };
+		FA4539DA1DB27BB6007789D7 /* LLMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLMessageViewController.xib; sourceTree = "<group>"; };
+		FA4539DC1DB27BB6007789D7 /* LLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMineViewController.h; sourceTree = "<group>"; };
+		FA4539DD1DB27BB6007789D7 /* LLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMineViewController.m; sourceTree = "<group>"; };
+		FA4539DE1DB27BB6007789D7 /* LLMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLMineViewController.xib; sourceTree = "<group>"; };
+		FA4539E01DB27BB6007789D7 /* LLSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSameCityViewController.h; sourceTree = "<group>"; };
+		FA4539E11DB27BB6007789D7 /* LLSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSameCityViewController.m; sourceTree = "<group>"; };
+		FA4539E21DB27BB6007789D7 /* LLSameCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLSameCityViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,9 +161,7 @@
 			children = (
 				6003F59C195388D20070C39A /* LLAppDelegate.h */,
 				6003F59D195388D20070C39A /* LLAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* LLViewController.h */,
-				6003F5A6195388D20070C39A /* LLViewController.m */,
+				FA4539CF1DB27BB6007789D7 /* ViewController */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -191,6 +207,67 @@
 				62CBFEA4B621037C9B20B281 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		FA4539CF1DB27BB6007789D7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA4539D01DB27BB6007789D7 /* Base */,
+				FA4539D31DB27BB6007789D7 /* Home */,
+				FA4539D71DB27BB6007789D7 /* Message */,
+				FA4539DB1DB27BB6007789D7 /* Mine */,
+				FA4539DF1DB27BB6007789D7 /* SameCity */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FA4539D01DB27BB6007789D7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FA4539D11DB27BB6007789D7 /* LLBaseViewController.h */,
+				FA4539D21DB27BB6007789D7 /* LLBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FA4539D31DB27BB6007789D7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA4539D41DB27BB6007789D7 /* LLHomeViewController.h */,
+				FA4539D51DB27BB6007789D7 /* LLHomeViewController.m */,
+				FA4539D61DB27BB6007789D7 /* LLHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA4539D71DB27BB6007789D7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FA4539D81DB27BB6007789D7 /* LLMessageViewController.h */,
+				FA4539D91DB27BB6007789D7 /* LLMessageViewController.m */,
+				FA4539DA1DB27BB6007789D7 /* LLMessageViewController.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FA4539DB1DB27BB6007789D7 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				FA4539DC1DB27BB6007789D7 /* LLMineViewController.h */,
+				FA4539DD1DB27BB6007789D7 /* LLMineViewController.m */,
+				FA4539DE1DB27BB6007789D7 /* LLMineViewController.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		FA4539DF1DB27BB6007789D7 /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				FA4539E01DB27BB6007789D7 /* LLSameCityViewController.h */,
+				FA4539E11DB27BB6007789D7 /* LLSameCityViewController.m */,
+				FA4539E21DB27BB6007789D7 /* LLSameCityViewController.xib */,
+			);
+			path = SameCity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +321,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LL;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Alex Steiner";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -276,7 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				FA4539EB1DB27BB6007789D7 /* LLSameCityViewController.xib in Resources */,
+				FA4539E71DB27BB6007789D7 /* LLMessageViewController.xib in Resources */,
+				FA4539E91DB27BB6007789D7 /* LLMineViewController.xib in Resources */,
+				FA4539E51DB27BB6007789D7 /* LLHomeViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -390,9 +470,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4539E81DB27BB6007789D7 /* LLMineViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
+				FA4539E41DB27BB6007789D7 /* LLHomeViewController.m in Sources */,
+				FA4539EA1DB27BB6007789D7 /* LLSameCityViewController.m in Sources */,
+				FA4539E61DB27BB6007789D7 /* LLMessageViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				FA4539E31DB27BB6007789D7 /* LLBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,14 +531,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -467,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,20 +576,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -513,6 +607,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLRiseTabBar/LLRiseTabBar-Prefix.pch";
 				INFOPLIST_FILE = "LLRiseTabBar/LLRiseTabBar-Info.plist";
@@ -529,6 +624,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLRiseTabBar/LLRiseTabBar-Prefix.pch";
 				INFOPLIST_FILE = "LLRiseTabBar/LLRiseTabBar-Info.plist";

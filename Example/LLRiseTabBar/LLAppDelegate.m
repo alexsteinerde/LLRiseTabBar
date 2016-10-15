@@ -7,13 +7,64 @@
 //
 
 #import "LLAppDelegate.h"
+#import "LLHomeViewController.h"
+#import "LLSameCityViewController.h"
+#import "LLMessageViewController.h"
+#import "LLMineViewController.h"
 
 @implementation LLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    LLHomeViewController *homeViewController = [[LLHomeViewController alloc] init];
+    LLSameCityViewController *sameCityViewController = [[LLSameCityViewController alloc] init];
+    LLMessageViewController *messageViewController = [[LLMessageViewController alloc] init];
+    LLMineViewController *mineViewController = [[LLMineViewController alloc] init];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[homeViewController, sameCityViewController, messageViewController, mineViewController];
+    
+    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    
+    LLTabBar *tabBar = [[LLTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
+    tabBar.tabBarItemAttributes = @[@{kLLTabBarItemAttributeTitle : @"Home", kLLTabBarItemAttributeNormalImageName : @"home_normal", kLLTabBarItemAttributeSelectedImageName : @"home_highlight", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
+                                    @{kLLTabBarItemAttributeTitle : @"Second", kLLTabBarItemAttributeNormalImageName : @"mycity_normal", kLLTabBarItemAttributeSelectedImageName : @"mycity_highlight", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
+                                    @{kLLTabBarItemAttributeTitle : @"Camera", kLLTabBarItemAttributeNormalImageName : @"post_normal", kLLTabBarItemAttributeSelectedImageName : @"post_normal", kLLTabBarItemAttributeType : @(LLTabBarItemRise)},
+                                    @{kLLTabBarItemAttributeTitle : @"Third", kLLTabBarItemAttributeNormalImageName : @"message_normal", kLLTabBarItemAttributeSelectedImageName : @"message_highlight", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
+                                    @{kLLTabBarItemAttributeTitle : @"Foruth", kLLTabBarItemAttributeNormalImageName : @"account_normal", kLLTabBarItemAttributeSelectedImageName : @"account_highlight", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)}];
+    tabBar.delegate = self;
+    [tabBarController.tabBar addSubview:tabBar];
+    
+    self.window.rootViewController = tabBarController;
+    
+
     return YES;
+}
+
+
+#pragma mark - LLTabBarDelegate
+
+- (void)tabBarDidSelectedRiseButton {
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UIViewController *viewController = tabBarController.selectedViewController;
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
+                                                             delegate:self
+                                                    cancelButtonTitle:@"取消"
+                                               destructiveButtonTitle:nil
+                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
+    [actionSheet showInView:viewController.view];
+}
+
+#pragma mark - UIActionSheetDelegate
+
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    NSLog(@"buttonIndex = %ld", buttonIndex);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

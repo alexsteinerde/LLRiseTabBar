@@ -5,7 +5,5 @@ target 'LLRiseTabBar_Example' do
 
   target 'LLRiseTabBar_Tests' do
     inherit! :search_paths
-
-    
   end
 end
