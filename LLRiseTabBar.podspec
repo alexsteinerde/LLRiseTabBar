@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = "This is a customisable TabBar with a custom rounded button in the middle."
 
-  s.homepage     = "https://github.com/alexsteinerde/LLRiseTabBar-iOS"
+s.homepage     = "http://alexsteiner.de"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex Steiner' => 'privat@alexsteiner.de' }
   s.source       = { :git => "https://github.com/alexsteinerde/LLRiseTabBar.git", :tag => s.version.to_s }
