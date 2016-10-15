@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LLRiseTabBar_Example' do
+  pod 'LLRiseTabBar', :path => '../'
+
+  target 'LLRiseTabBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
